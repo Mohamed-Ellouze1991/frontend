@@ -1,0 +1,103 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .form-container {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    margin-bottom: 30px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .joueur-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .form-field {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-field label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .joueur-form input, .joueur-form select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .joueur-form button {
+    padding: 10px 15px;
+    background-color: #41aeee;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .joueur-form button:hover {
+    background-color: #5099ed;
+  }
+  
+  .table-container {
+    width: 100%;
+    max-width: 800px;
+    overflow-x: auto;
+  }
+  
+  .joueur-table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .joueur-table, .joueur-table th, .joueur-table td {
+    border: 1px solid #ddd;
+  }
+  
+  .joueur-table th, .joueur-table td {
+    text-align: left;
+    padding: 12px;
+  }
+  
+  .joueur-table th {
+    background-color: #599ce3;
+    color: white;
+  }
+  
+  .joueur-table tr:nth-child(odd) {
+    background-color: #f2f2f2;
+  }
+  
+  .joueur-table tr:hover {
+    background-color: #ddd;
+  }
+  /* dashboard.component.css */
+.sidenav-container {
+    height: 100%;
+  }
+  
+  mat-sidenav {
+    width: 200px;
+  }
+/* styles.css */
+body {
+    margin: 0;
+    font-family: Roboto, sans-serif;
+  }
+    
